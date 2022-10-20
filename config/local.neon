@@ -2,6 +2,11 @@ parameters:
 
 
 database:
-	dsn: 'mysql:host=127.0.0.1;dbname=test'
-	user:
-	password:
+	first:
+		dsn: 'mysql:host=127.0.0.1;dbname=web_project'
+		user: 
+		password: 
+	second:	
+		dsn: 'mysql:host=127.0.0.1;dbname=web_project'
+		user: 
+		password: 

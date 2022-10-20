@@ -1,0 +1,3 @@
+id: "id" # id column name, default is "id"
+locale: "locale" # locale column name, default is "locale"
+message: "message" # message column name, default is "message"
