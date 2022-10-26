@@ -4,27 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e11137d71010c046304970fff750d61e",
+    "content-hash": "9c601726dc432849c2f642f79b3e8dd3",
     "packages": [
         {
             "name": "contributte/translation",
-            "version": "v2.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contributte/translation.git",
-                "reference": "d24a58184356a8b38e524826c62431d7f2f27cd4"
+                "reference": "df0b02f5c71fe0135531c72fb26a3f470d78bd08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contributte/translation/zipball/d24a58184356a8b38e524826c62431d7f2f27cd4",
-                "reference": "d24a58184356a8b38e524826c62431d7f2f27cd4",
+                "url": "https://api.github.com/repos/contributte/translation/zipball/df0b02f5c71fe0135531c72fb26a3f470d78bd08",
+                "reference": "df0b02f5c71fe0135531c72fb26a3f470d78bd08",
                 "shasum": ""
             },
             "require": {
                 "latte/latte": "^2.6|^3.0",
                 "nette/di": "^3.0.6",
                 "nette/finder": "^2.5.2",
-                "nette/http": "^3.0",
+                "nette/http": "^3.0.7",
                 "nette/neon": "^3.3.1",
                 "nette/routing": "^3.0",
                 "nette/schema": "^1.0",
@@ -36,10 +36,10 @@
             "require-dev": {
                 "doctrine/orm": "^2.8",
                 "mockery/mockery": "^1.4",
-                "nette/application": "^3.0",
+                "nette/application": "^3.1.0",
                 "nette/bootstrap": "^3.0",
                 "nette/database": "^3.1.1",
-                "nette/robot-loader": " ^3.2",
+                "nette/robot-loader": " ^3.4.0",
                 "nette/tester": "^2.3.1",
                 "ninjify/nunjuck": "^0.3.0",
                 "ninjify/qa": "^0.13",
@@ -50,6 +50,7 @@
                 "psr/log": "^1.1",
                 "tracy/tracy": "^2.8"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -79,7 +80,7 @@
             ],
             "support": {
                 "issues": "https://github.com/contributte/translation/issues",
-                "source": "https://github.com/contributte/translation/tree/v2.0.0"
+                "source": "https://github.com/contributte/translation/tree/master"
             },
             "funding": [
                 {
@@ -91,7 +92,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-07-14T09:01:07+00:00"
+            "time": "2022-10-25T15:29:09+00:00"
         },
         {
             "name": "latte/latte",
@@ -2175,7 +2176,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "contributte/translation": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

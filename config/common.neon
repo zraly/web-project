@@ -28,6 +28,6 @@ translation:
 		- %appDir%/lang
 	returnOriginalMessage: true # to not translate undefined messages, default is true		
 	loaders:
-		nettedatabase: Contributte\Translation\Loaders\NetteDatabase(Nette\Database\Connection(@database.second))
+		nettedatabase: Contributte\Translation\Loaders\NetteDatabase(@database.second)
 	localeResolvers:
 		- Contributte\Translation\LocalesResolvers\Router

@@ -20,7 +20,7 @@
 		"nette/utils": "^3.2",
 		"latte/latte": "^2.11 || ^3.0",
 		"tracy/tracy": "^2.8",
-		"contributte/translation": "^2.0"
+		"contributte/translation": "dev-master"
 	},
 	"require-dev": {
 		"nette/tester": "^2.3",
